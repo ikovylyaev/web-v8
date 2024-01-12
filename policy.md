@@ -2,14 +2,8 @@
 layout: default
 permalink: /policy/
 ---
-<div class='container-fluid'>
-    <div class='row'>
-        <div class='col-md-10 col-12 offset-md-1'>
-            <p><span class='main-color'>Иван Ковыляев.</span> Дизайн-лид <a class='link' href="https://xieffect.ru" target="blank">Xieffect.ru</a> и веб-дизайнер в <a class='link' href="https://ekaterinburg.dev/" target="blank">Код Екатеринбурга</a>. Делаю удобные интерфейсы для людей.</p>
-        </div>
-    </div>
-    <div class='row'>
-        <div class='col-md-10 col-12 offset-md-1' style='font-size: 16px; font-weight: 500;'>
+<div class='row'>
+    <div class='col-md-10 col-12 offset-md-1' style='font-size: 16px; font-weight: 500;'>
             <h1 class="mb-3" style='font-size: 24px; font-weight: 800;'>Политика в отношении обработки персональных данных</h1>
             <b>1. Общие положения</b>
             <p>Настоящая политика обработки персональных данных составлена в соответствии с требованиями Федерального закона от 27.07.2006. №152-ФЗ «О персональных данных» и определяет порядок обработки персональных данных и меры по обеспечению безопасности персональных данных, предпринимаемые Ковыляевым Иваном Сергеевичем (далее – Оператор).</p>
@@ -57,4 +51,3 @@ permalink: /policy/
             <p>8.3. Актуальная версия Политики в свободном доступе расположена в сети Интернет по адресу <a class='link' href="https://ikovylyaev.com/policy">https://ikovylyaev.com/policy</a>.</p>
         </div>
     </div>
-</div>
