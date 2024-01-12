@@ -16,16 +16,13 @@ layout: default
     <div class='row'>   
         <div class='col-md-4'>
         <h3>Проекты</h3>
-        {% for post in site.project %}
+        {% for post in site.projects %}
             {% if post.link != "" %}
                 <a href="{{ post.link }}" target="blank">
             {% else%}
                 <div>
             {% endif %}
                 <h4>{{ post.title }} 
-                {% if post.link == "" %}
-                    <p class='badge'>Скоро</p>
-                {% endif %}
                 </h4>
                 <p>{{post.description}}</p>
             {% if post.link != "" %}
@@ -39,7 +36,7 @@ layout: default
     <div class='row'>   
         <div class='col-md-4'>
         <h3>Работа</h3>
-        {% for post in site.work %}
+        {% for post in site.works %}
             <div>
                 <small>{{ post.year }}</small>
                 <h4>{{ post.title }}</h4>
