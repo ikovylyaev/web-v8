@@ -10,7 +10,6 @@ description: >-
 baseurl: ""
 url: "https://new.ikovylyaev.com"
 
-theme: minima
 plugins:
   - jekyll-feed
 
