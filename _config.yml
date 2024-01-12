@@ -1,0 +1,20 @@
+title: ikovylyaev
+email: hi@ikovylyaev.com
+behance: ikovylyaev
+telegram: ikovylyaev
+dprofile: ikovylyaev
+figma: ikovylyaev
+description: >- 
+  Дизайн-лид Xieffect.ru и веб-дизайнер в Код Екатеринбурга. Делаю удобные интерфейсы для людей.
+  
+baseurl: ""
+url: "https://ikovylyaev.com"
+
+theme: minima
+plugins:
+  - jekyll-feed
+
+collections:
+  design:
+    output: true
+    sort_by: id
