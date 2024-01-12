@@ -13,27 +13,5 @@ layout: default
             <a href='{{site.url}}/photo'>Фотография</a>
         </div>
     </div>
-    <div class='row'>   
-        <div class='col-md-4'>
-        <h3>Проекты</h3>
-        {% for post in site.project %}
-            {% if post.link != "" %}
-                <a href="{{ post.link }}" target="blank">
-            {% else%}
-                <div>
-            {% endif %}
-                <h4>{{ post.title }} 
-                {% if post.link == "" %}
-                    <p class='badge'>Скоро</p>
-                {% endif %}
-                </h4>
-                <p>{{post.description}}</p>
-            {% if post.link != "" %}
-                </a>
-            {% else %}
-                </div>
-            {% endif %}
-        {% endfor %}
-        </div>
-    </div>
+    
 </div>
