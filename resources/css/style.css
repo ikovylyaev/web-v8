@@ -19,7 +19,7 @@ body{
     body{
         padding: 5vw;
         margin-top: 0.75rem;
-        font-size: 3vh;
+        font-size: 2vh;
     }
     .row{
         margin-bottom: 6vh;
@@ -38,7 +38,7 @@ body{
     body{
         padding: 10vw;
         margin-top: 0.75rem;
-        font-size: 3vh;
+        font-size: 2vh;
     }
     .row{
         margin-bottom: 6vh;
@@ -51,6 +51,10 @@ body{
     footer{
         font-size: 2vh;
     }
+}
+
+h1, .h1{
+    font-size: 1.4rem;
 }
 
 .main-color{

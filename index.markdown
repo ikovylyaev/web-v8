@@ -16,7 +16,7 @@ layout: default
     <div class='row'>   
         <div class='col-md-4'>
         <h3>Проекты</h3>
-        {% for posts in site.project %}
+        {% for post in site.project %}
             {% if post.link != "" %}
                 <a href="{{ post.link }}" target="blank">
             {% else%}
