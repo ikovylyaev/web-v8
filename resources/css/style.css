@@ -19,7 +19,7 @@ body{
     body{
         padding: 5vw;
         margin-top: 0.75rem;
-        font-size: 3.5vh;
+        font-size: 3vh;
     }
     .row{
         margin-bottom: 6vh;
@@ -38,7 +38,7 @@ body{
     body{
         padding: 10vw;
         margin-top: 0.75rem;
-        font-size: 4vh;
+        font-size: 3vh;
     }
     .row{
         margin-bottom: 6vh;
@@ -118,6 +118,15 @@ a:hover{
     color: hsla(0, 0%, 100%, 1);
     transition: 0.3s;
 }
+
+.badge{
+    font-size: 0.6rem;
+    background: var(--orange-bg);
+    color: var(--orange);
+    padding: 4px 8px;
+    border-radius: 8px;
+}
+
 /*
 img{
     box-shadow: 0 0 8px rgba(0, 8, 25, 0.16);
