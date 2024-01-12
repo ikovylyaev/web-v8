@@ -15,6 +15,9 @@ plugins:
   - jekyll-feed
 
 collections:
-  design:
+  project:
+    output: true
+    sort_by: id
+  work:
     output: true
     sort_by: id
