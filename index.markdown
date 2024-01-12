@@ -30,10 +30,10 @@ layout: default
                 <p>{{post.description}}</p>
             {% if post.link != "" %}
                 </a>
-            {% else%}
+            {% else %}
                 </div>
             {% endif %}
-        {% endfor $}
+        {% endfor %}
         </div>
     </div>
 </div>
