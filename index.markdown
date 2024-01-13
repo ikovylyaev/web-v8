@@ -47,12 +47,12 @@ layout: default
         </div>
         <div class='col-md-4 col-12'>
         <h3>Контакты</h3>
-        <a class='mt-3' href='mailto:hi@ikovylyaev.com' target="_blank">Почта hi@ikovylyaev.com</a>
-        <a href='https://figma.com/@ikovylyaev' target="_blank">Figma @ikovylyaev</a>
-        <a href='https://behance.net/ikovylyaev' target="_blank">Behance @ikovylyaev</a>
-        <a href='https://dprofile.ru/ikovylyaev' target="_blank">DProfile @ikovylyaev</a>
-        <a href='https://t.me/ikovylyaev' target="_blank">Tg @ikovylyaev</a>
-        <a class='mt-5 link-small' href='{{site.url}}/policy' target="">Политика конфиденциальности</a>
+        <a class='mt-3 p' href='mailto:hi@ikovylyaev.com' target="_blank">Почта hi@ikovylyaev.com</a><br>
+        <a class='p' href='https://figma.com/@ikovylyaev' target="_blank">Figma @ikovylyaev</a><br>
+        <a class='p' href='https://behance.net/ikovylyaev' target="_blank">Behance @ikovylyaev</a><br>
+        <a class='p' href='https://dprofile.ru/ikovylyaev' target="_blank">DProfile @ikovylyaev</a><br>
+        <a class='p' href='https://t.me/ikovylyaev' target="_blank">Tg @ikovylyaev</a><br>
+        <a class='mt-5 secondary-link' href='{{site.url}}/policy' target="">Политика конфиденциальности</a>
         </div>
     </div>
 </div>

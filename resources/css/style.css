@@ -68,7 +68,8 @@ h4{
 small{
     font-size: 0.7rem;
 }
-p{
+p, 
+.p{
     font-size: 0.8rem;
 }
 
