@@ -47,11 +47,11 @@ layout: default
         </div>
         <div class='col-md-4 col-12'>
         <h3>Контакты</h3>
-        <a class='mt-3 par link-contact' href='mailto:hi@ikovylyaev.com' target="_blank">Почта hi@ikovylyaev.com</a><br>
-        <a class='par link-contact' href='https://figma.com/@ikovylyaev' target="_blank">Figma @ikovylyaev</a><br>
-        <a class='par link-contact' href='https://behance.net/ikovylyaev' target="_blank">Behance @ikovylyaev</a><br>
-        <a class='par link-contact' href='https://dprofile.ru/ikovylyaev' target="_blank">DProfile @ikovylyaev</a><br>
-        <a class='par link-contact' href='https://t.me/ikovylyaev' target="_blank">Tg @ikovylyaev</a><br>
+        <a class='mt-3 par link-contact' href='mailto:hi@ikovylyaev.com' target="_blank">Почта hi@ikovylyaev.com</a>
+        <a class='par link-contact' href='https://figma.com/@ikovylyaev' target="_blank">Figma @ikovylyaev</a>
+        <a class='par link-contact' href='https://behance.net/ikovylyaev' target="_blank">Behance @ikovylyaev</a>
+        <a class='par link-contact' href='https://dprofile.ru/ikovylyaev' target="_blank">DProfile @ikovylyaev</a>
+        <a class='par link-contact' href='https://t.me/ikovylyaev' target="_blank">Tg @ikovylyaev</a>
         <a class='mt-5 secondary-link' href='{{site.url}}/policy' target="">Политика конфиденциальности</a>
         </div>
     </div>

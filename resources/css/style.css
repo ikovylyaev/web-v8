@@ -17,7 +17,7 @@ body{
 
 @media (max-width: 500px) {
     body{
-        padding: 5vw;
+        padding: 3vw;
         margin-top: 0.75rem;
         font-size: 2vh !important;
     }
@@ -36,9 +36,9 @@ body{
 }
 @media (min-width: 501px) {
     body{
-        padding: 10vw;
+        padding: 5vw;
         margin-top: 0.75rem;
-        font-size: 4vh !important;
+        font-size: 5vh !important;
     }
     .row{
         margin-bottom: 6vh;
