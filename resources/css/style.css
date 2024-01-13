@@ -5,7 +5,7 @@
     --orange: hsla(27, 100%, 50%, 1);
     --orange-bg: hsla(27, 100%, 50%, 0.1);
     --bg: hsla(0, 0%, 100%, 1);
-    --font-base: 1.5vh;
+    --font-base: 1.8vh;
 }
 
 body{
@@ -110,18 +110,18 @@ a:hover{
 }
 
 .secondary-link{
-    font-size: 12px;
+    font-size: 10px;
     font-weight: 500;
     color: hsla(218, 15%, 25%, 1)!important;
-    border-bottom: 1px solid hsla(218, 15%, 25%, 0.2)!important;
+    border-bottom: 1px solid hsla(218, 15%, 25%, 0)!important;
     transition: 0.3s;
 }
 
 .secondary-link:hover{
-    font-size: 12px;
+    font-size: 10px;
     font-weight: 500;
     color: hsla(218, 15%, 25%, 1)!important;
-    border-bottom: 1px solid hsla(218, 15%, 25%, 1)!important;
+    border-bottom: 1px solid hsla(218, 15%, 25%, 0)!important;
     transition: 0.3s;
 }
 .inner-block{
@@ -148,7 +148,7 @@ a:hover{
     background: var(--orange-bg);
     color: var(--orange);
     padding: 4px 8px;
-    border-radius: 8px;
+    border-radius: 4px;
     margin-bottom: 0px;
     font-weight: 500;
 }

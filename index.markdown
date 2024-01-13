@@ -18,7 +18,7 @@ layout: default
         <h3>Проекты</h3>
         {% for post in site.projects %}
             {% if post.link != "" %}
-                <a href="{{ post.link }}" target="_blank" class="mt-4">
+                <a href="{{ post.link }}" target="_blank" class="mt-4" style='display: inline-block;'>
             {% else%}
                 <div class="mt-4">
             {% endif %}
