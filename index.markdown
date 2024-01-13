@@ -18,11 +18,11 @@ layout: default
         <h3>Проекты</h3>
         {% for post in site.projects %}
             {% if post.link != "" %}
-                <a href="{{ post.link }}" target="_blank" class="mt-3">
+                <a href="{{ post.link }}" target="_blank" class="mt-4">
             {% else%}
-                <div class="mt-3">
+                <div class="mt-4">
             {% endif %}
-                <h4>{{ post.title }} 
+                <h4 class='mb-1'>{{ post.title }} 
                 {% if post.link == "" %}
                     <p class='badge'>Скоро</p>
                 {% endif %}
@@ -38,16 +38,16 @@ layout: default
         <div class='col-md-4 col-12'>
         <h3>Работа</h3>
         {% for post in site.works %}
-            <div class="mt-3">
+            <div class="mt-4">
                 <small>{{ post.year }}</small>
-                <h4>{{ post.title }}</h4>
+                <h4 class='mb-1'>{{ post.title }}</h4>
                 <p>{{post.description}}</p>
             </div>
         {% endfor %}
         </div>
         <div class='col-md-4 col-12'>
         <h3>Контакты</h3>
-        <a class='mt-3 par link-contact' href='mailto:hi@ikovylyaev.com' target="_blank">Почта hi@ikovylyaev.com</a>
+        <a class='mt-4 par link-contact' href='mailto:hi@ikovylyaev.com' target="_blank">Почта hi@ikovylyaev.com</a>
         <a class='par link-contact' href='https://figma.com/@ikovylyaev' target="_blank">Figma @ikovylyaev</a>
         <a class='par link-contact' href='https://behance.net/ikovylyaev' target="_blank">Behance @ikovylyaev</a>
         <a class='par link-contact' href='https://dprofile.ru/ikovylyaev' target="_blank">DProfile @ikovylyaev</a>

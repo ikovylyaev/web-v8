@@ -5,7 +5,7 @@
     --orange: hsla(27, 100%, 50%, 1);
     --orange-bg: hsla(27, 100%, 50%, 0.1);
     --bg: hsla(0, 0%, 100%, 1);
-    --font-base: 2vh;
+    --font-base: 1.5vh;
 }
 
 body{
@@ -20,7 +20,6 @@ body{
     body{
         padding: 3vw;
         margin-top: 0.75rem;
-        font-size: 2vh !important;
     }
     .row{
         margin-bottom: 6vh;
@@ -39,7 +38,6 @@ body{
     body{
         padding: 5vw;
         margin-top: 0.75rem;
-        font-size: 5vh !important;
     }
     .row{
         margin-bottom: 6vh;
