@@ -5,7 +5,7 @@
     --orange: hsla(27, 100%, 50%, 1);
     --orange-bg: hsla(27, 100%, 50%, 0.1);
     --bg: hsla(0, 0%, 100%, 1);
-    --font-base: 3vh;
+    --font-base: 2vh;
 }
 
 body{

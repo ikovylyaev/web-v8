@@ -8,9 +8,9 @@ layout: default
             <h2 class='h1'>Дизайнер дизайн-систем, интерфейсов, продуктов</h2>
         </div>
         <div class='col-md-4 col-12'>
-            <a href='{{site.url}}/projects'>Проекты</a>
-            <a href='{{site.url}}/work'>Работа</a>
-            <a href='{{site.url}}/photo'>Фотография</a>
+            <a style='display: block;' href='{{site.url}}/projects'>Проекты</a>
+            <a style='display: block;' href='{{site.url}}/work'>Работа</a>
+            <a style='display: block;' href='{{site.url}}/photo'>Фотография</a>
         </div>
     </div>
     <div class='row'>   
