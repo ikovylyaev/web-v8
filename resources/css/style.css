@@ -19,7 +19,7 @@ body{
     body{
         padding: 5vw;
         margin-top: 0.75rem;
-        font-size: 2vh;
+        font-size: 2vh !important;
     }
     .row{
         margin-bottom: 6vh;
@@ -38,7 +38,7 @@ body{
     body{
         padding: 10vw;
         margin-top: 0.75rem;
-        font-size: 4vh;
+        font-size: 4vh !important;
     }
     .row{
         margin-bottom: 6vh;
@@ -54,26 +54,31 @@ body{
 }
 
 h1, .h1{
-    font-size: 1.6rem;
+    font-size: 1.6rem !important;
 }
 h2{
-    font-size: 1.4rem;
+    font-size: 1.4rem !important;
 }
 h3{
-    font-size: 1.2rem;
+    font-size: 1.2rem !important;
 }
 h4{
-    font-size: 1rem;
+    font-size: 1rem !important;
 }
 small{
-    font-size: 0.7rem;
+    font-size: 0.7rem !important;
 }
-p, .par{
-    font-size: 0.8rem;
+p, .par, a{
+    font-size: 0.8rem !important;
 }
 
 .main-color{
     color: var(--main-color);
+}
+
+.link-contact{
+    font-size: 0.8rem !important;
+    display: block;
 }
 
 span{
