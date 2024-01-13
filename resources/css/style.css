@@ -38,7 +38,7 @@ body{
     body{
         padding: 10vw;
         margin-top: 0.75rem;
-        font-size: 3vh;
+        font-size: 4vh;
     }
     .row{
         margin-bottom: 6vh;
@@ -68,8 +68,7 @@ h4{
 small{
     font-size: 0.7rem;
 }
-p, 
-.p{
+p, .par{
     font-size: 0.8rem;
 }
 
@@ -140,11 +139,12 @@ a:hover{
 }
 
 .badge{
-    font-size: 0.6rem;
+    font-size: 0.8rem;
     background: var(--orange-bg);
     color: var(--orange);
     padding: 4px 8px;
     border-radius: 8px;
+    margin-bottom: 0px;
 }
 
 /*
