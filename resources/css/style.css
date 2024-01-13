@@ -54,7 +54,22 @@ body{
 }
 
 h1, .h1{
+    font-size: 1.6rem;
+}
+h2{
     font-size: 1.4rem;
+}
+h3{
+    font-size: 1.2rem;
+}
+h4{
+    font-size: 1rem;
+}
+small{
+    font-size: 0.7rem;
+}
+p{
+    font-size: 0.8rem;
 }
 
 .main-color{

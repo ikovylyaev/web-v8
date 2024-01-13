@@ -14,7 +14,7 @@ layout: default
         </div>
     </div>
     <div class='row'>   
-        <div class='col-md-4'>
+        <div class='col-md-4 col-12'>
         <h3>Проекты</h3>
         {% for post in site.projects %}
             {% if post.link != "" %}
@@ -23,6 +23,9 @@ layout: default
                 <div>
             {% endif %}
                 <h4>{{ post.title }} 
+                {% if post.link == "" %}
+                    <p class='badge'>Скоро</p>
+                {% endif %}
                 </h4>
                 <p>{{post.description}}</p>
             {% if post.link != "" %}
@@ -31,10 +34,8 @@ layout: default
                 </div>
             {% endif %}
         {% endfor %}
-        </div>
-    </div>
-    <div class='row'>   
-        <div class='col-md-4'>
+        </div>   
+        <div class='col-md-4 col-12'>
         <h3>Работа</h3>
         {% for post in site.works %}
             <div>
@@ -44,9 +45,7 @@ layout: default
             </div>
         {% endfor %}
         </div>
-    </div>
-    <div class='row'>   
-        <div class='col-md-4'>
+        <div class='col-md-4 col-12'>
         <h3>Контакты</h3>
         <a class='mt-3' href='mailto:hi@ikovylyaev.com' target="_blank">Почта hi@ikovylyaev.com</a>
         <a href='https://figma.com/@ikovylyaev' target="_blank">Figma @ikovylyaev</a>
