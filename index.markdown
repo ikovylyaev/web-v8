@@ -8,6 +8,7 @@ layout: default
             <h2 class='h1'>Дизайнер дизайн-систем, интерфейсов, продуктов</h2>
         </div>
         <div class='col-md-4 col-12'>
+            <a class='link-top'><div style='home-icon active'></div></a>
             <a class='link-top' style='display: block;' href='{{site.url}}/projects'>Проекты</a>
             <a class='link-top' style='display: block;' href='{{site.url}}/work'>Работа</a>
             <a class='link-top' style='display: block;' href='{{site.url}}/photo'>Фотография</a>

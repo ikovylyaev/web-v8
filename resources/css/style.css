@@ -78,6 +78,23 @@ p, .par, a{
 .link-top.active{
     color: var(--main-color);
 }
+.link-top .icon-home{
+    height: 20px; 
+    width: 20px; 
+    border-radius: 10px; 
+    background: var(--second-color);
+    transition: 0,3s;
+}
+.link-top .icon-home.active{
+    background: var(--main-color);
+}
+.link-top:hover .icon-home{
+    height: 20px; 
+    width: 20px; 
+    border-radius: 10px; 
+    background: var(--orange);
+    transition: 0,3s;
+}
 
 .main-color{
     color: var(--main-color);

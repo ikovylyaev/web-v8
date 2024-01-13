@@ -7,6 +7,7 @@ layout: default
             <h1 class='main-color'>{{ page.title }}</h1>
         </div>
         <div class='col-md-4 col-12'>
+            <a class='link-top'><div style='home-icon'></div></a>
             <a class='link-top {% if page.permalink == "/projects/" %}active{% endif %}' style='display: block;' href='{{site.url}}/projects'>Проекты</a>
             <a class='link-top  {% if page.permalink == "/work/" %}active{% endif %}' style='display: block;' href='{{site.url}}/work'>Работа</a>
             <a class='link-top  {% if page.permalink == "/photo/" %}active{% endif %}' style='display: block;' href='{{site.url}}/photo'>Фотография</a>
