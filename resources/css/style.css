@@ -72,6 +72,10 @@ p, .par, a{
     font-size: calc(0.8*var(--font-base)) !important;
 }
 
+.link-top{
+    font-size: calc(1*var(--font-base)) !important;
+}
+
 .main-color{
     color: var(--main-color);
 }
