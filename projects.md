@@ -3,6 +3,7 @@ layout: page
 permalink: /projects/
 title: 'Проекты'
 ---
+<div class='row'>
 {% for post in site.projects %}
     {% if post.link != "" %}
         <a href="{{ post.link }}" target="_blank" class="col-md-6 col-12" >
@@ -21,3 +22,4 @@ title: 'Проекты'
         </div>
     {% endif %}
 {% endfor %}
+</div>
