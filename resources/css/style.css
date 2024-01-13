@@ -110,7 +110,7 @@ a:hover{
 }
 
 .secondary-link{
-    font-size: 10px;
+    font-size: 10px !important;
     font-weight: 500;
     color: hsla(218, 15%, 25%, 1)!important;
     border-bottom: 1px solid hsla(218, 15%, 25%, 0)!important;
@@ -118,7 +118,7 @@ a:hover{
 }
 
 .secondary-link:hover{
-    font-size: 10px;
+    font-size: 10px !important;
     font-weight: 500;
     color: hsla(218, 15%, 25%, 1)!important;
     border-bottom: 1px solid hsla(218, 15%, 25%, 0)!important;
