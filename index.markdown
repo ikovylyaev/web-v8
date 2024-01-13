@@ -8,8 +8,8 @@ layout: default
             <h2 class='h1'>Дизайнер дизайн-систем, интерфейсов, продуктов</h2>
         </div>
         <div class='col-md-4 col-12'>
-            <a href='{{site.url}}/projects'>Проекты</a><br>
-            <a href='{{site.url}}/work'>Работа</a><br>
+            <a href='{{site.url}}/projects'>Проекты</a>
+            <a href='{{site.url}}/work'>Работа</a>
             <a href='{{site.url}}/photo'>Фотография</a>
         </div>
     </div>

@@ -5,6 +5,7 @@
     --orange: hsla(27, 100%, 50%, 1);
     --orange-bg: hsla(27, 100%, 50%, 0.1);
     --bg: hsla(0, 0%, 100%, 1);
+    --font-base: 3vh;
 }
 
 body{
@@ -54,23 +55,23 @@ body{
 }
 
 h1, .h1{
-    font-size: 1.6rem !important;
+    font-size: calc(1.6*var(--font-base)) !important;
 }
 h2{
-    font-size: 1.4rem !important;
+    font-size: calc(1.4*var(--font-base)) !important;
 }
 h3{
-    font-size: 1.2rem !important;
+    font-size: calc(1.2*var(--font-base)) !important;
 }
 h4{
-    font-size: 1rem !important;
+    font-size: calc(1*var(--font-base)) !important;
 }
 small{
-    font-size: 0.7rem !important;
+    font-size: calc(0.7*var(--font-base)) !important;
     display: block;
 }
 p, .par, a{
-    font-size: 0.8rem !important;
+    font-size: calc(0.8*var(--font-base)) !important;
 }
 
 .main-color{
@@ -78,7 +79,7 @@ p, .par, a{
 }
 
 .link-contact{
-    font-size: 0.8rem !important;
+    font-size: calc(0.8*var(--font-base)) !important;
     display: block;
 }
 
