@@ -9,7 +9,7 @@ image: "ekb"
 imgsize: "contain"
 bgcolor: "#E9E9E9"
 link: ""
-permalink: ""
+permalink: "/projects/transportekb"
 role: "Веб-дизайнер"
 year: "2022-2024"
 ---
