@@ -67,6 +67,7 @@ h4{
 }
 small{
     font-size: 0.7rem !important;
+    display: block;
 }
 p, .par, a{
     font-size: 0.8rem !important;

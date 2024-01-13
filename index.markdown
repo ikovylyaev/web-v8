@@ -18,9 +18,9 @@ layout: default
         <h3>Проекты</h3>
         {% for post in site.projects %}
             {% if post.link != "" %}
-                <a href="{{ post.link }}" target="blank">
+                <a href="{{ post.link }}" target="_blank" class="mt-3">
             {% else%}
-                <div>
+                <div class="mt-3">
             {% endif %}
                 <h4>{{ post.title }} 
                 {% if post.link == "" %}
@@ -38,7 +38,7 @@ layout: default
         <div class='col-md-4 col-12'>
         <h3>Работа</h3>
         {% for post in site.works %}
-            <div>
+            <div class="mt-3">
                 <small>{{ post.year }}</small>
                 <h4>{{ post.title }}</h4>
                 <p>{{post.description}}</p>
