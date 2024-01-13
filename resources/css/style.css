@@ -75,6 +75,9 @@ p, .par, a{
 .link-top{
     font-size: calc(1*var(--font-base)) !important;
 }
+.link-top.active{
+    color: var(--main-color);
+}
 
 .main-color{
     color: var(--main-color);
