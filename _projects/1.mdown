@@ -5,7 +5,7 @@ layout: post
 date: '2021-09-01 20:00:00 +0500'
 type: project
 description: "Дизайн-система для быстрого создания продукта. Доступна в Фигме"
-permalink: "/design/finka/"
+permalink: "/projects/finkads/"
 image: "finka"
 imgsize: "contain"
 bgcolor: "#E9E9E9"
