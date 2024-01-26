@@ -7,7 +7,7 @@ title: 'Работа'
 {% for post in site.works %}
     <div class="col-md-6 col-12">
         <small>{{ post.year }}</small>
-        <h4 class='mb-1' style='margin-top: 0.5rem;'>{{ post.title }}</h4>
+        <h4 style='margin-top: 0.3rem; margin-top: 0.6rem;'>{{ post.title }}</h4>
         <p>{{post.description}}</p>
     </div>
 {% endfor %}

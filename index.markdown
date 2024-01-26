@@ -17,7 +17,7 @@ layout: default
     <div class='row'>   
         <div class='col-md-4 col-12'>
         <h3>Проекты</h3>
-        {% for post in site.projects limit: 3 %}
+        {% for post in site.projects limit: 3 | sort:"id" %}
             {% if post.link != "" %}
                 <a href="{{ post.link }}" target="_blank" class="mt-3" style='display: inline-block;'>
             {% else%}
