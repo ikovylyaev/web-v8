@@ -8,7 +8,7 @@ layout: default
             <h2 class='h1'>Дизайнер дизайн-систем, интерфейсов, продуктов</h2>
         </div>
         <div class='col-md-4 col-12'>
-            <a class='link-top'><div class='home-icon active'></div></a>
+            <a class='link-top' href='{{site.url}}/'><div class='home-icon active'></div></a>
             <a class='link-top' style='display: block;' href='{{site.url}}/projects'>Проекты</a>
             <a class='link-top' style='display: block;' href='{{site.url}}/work'>Работа</a>
             <a class='link-top' style='display: block;' href='{{site.url}}/photo'>Фотография</a>
@@ -28,7 +28,7 @@ layout: default
                     <p class='badge'>Скоро</p>
                 {% endif %}
                 </h4>
-                <p>{{post.description}}</p>
+                <p class='mb-0 pb-0'>{{post.description}}</p>
             {% if post.link != "" %}
                 </a>
             {% else %}
