@@ -4,6 +4,7 @@
     --second-color: hsla(218, 15%, 25%, 1);
     --orange: hsla(27, 100%, 50%, 1);
     --orange-bg: hsla(27, 100%, 50%, 0.1);
+    --orange-bg-hover: hsla(27, 100%, 50%, 0.2);
     --bg: hsla(0, 0%, 100%, 1);
     --font-base: 1.8vh;
 }
@@ -152,9 +153,9 @@ a:hover{
     margin-bottom: 6vh;
 }
 .btn{
-    background: hsla(221, 100%, 5%, 0.8);
+    background: var(--orange-bg);
     padding: 8px 16px;
-    color: hsla(0, 0%, 100%, 1);
+    color: var(--orange);
     font-size: inherit;
     font-weight: inherit;
     margin-top: 10px;
@@ -162,8 +163,8 @@ a:hover{
     border-radius: 8px;
 }
 .btn:hover{
-    background: hsla(221, 100%, 5%, 1);
-    color: hsla(0, 0%, 100%, 1);
+    background: var(--orange-bg-hover);
+    color: var(--orange);
     transition: 0.3s;
 }
 
@@ -174,7 +175,7 @@ a:hover{
     padding: 4px 8px;
     border-radius: 4px;
     margin-bottom: 0px;
-    font-weight: 500;
+    font-weight: 400;
 }
 
 /*
