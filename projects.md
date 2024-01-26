@@ -10,6 +10,7 @@ title: 'Проекты'
     {% else%}
         <div class="col-md-6 col-12">
     {% endif %}
+    <img src='{{ site.url }}/img/projects/{{ post.image }}.webp' style='width: 100%; border-radius: 16px;'>
     <h4 class='mb-1'>{{ post.title }} 
         {% if post.link == "" %}
             <p class='badge'>Скоро</p>
