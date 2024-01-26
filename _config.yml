@@ -20,6 +20,9 @@ collections:
   projects:
     output: true
     sort_by: id
+  projectsmore:
+    output: true
+    sort_by: id
   works:
     output: true
     sort_by: id
