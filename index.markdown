@@ -4,6 +4,11 @@ layout: default
 <div class='container-fluid'>
     <div class='row'>
         <div class='col-md-8 col-12'>
+            <!---<div>
+                <img src='{{site.url}}/img/author.webp' style='height: 32px; width: 32px; border-radius: 16px; margin-right: 4px; display: inline-block;' alt='Иван Ковыляев'>
+                <h1 class='main-color' style='display: inline; padding-bottom: 4px; vertical-align: middle'>Иван Ковыляев</h1>
+            </div>
+            -->
             <h1 class='main-color'>Иван Ковыляев</h1>
             <h2 class='h1'>Дизайнер дизайн-систем, интерфейсов, продуктов</h2>
         </div>
@@ -39,7 +44,7 @@ layout: default
         <div class='col-md-4 col-12'>
         <h3>Работа</h3>
         {% for post in site.works %}
-            <div class="mt-3">
+            <div class="mt-3" style="display: inline-block;">
                 <small>{{ post.year }}</small>
                 <h4 class='mb-1'>{{ post.title }}</h4>
                 <p>{{post.description}}</p>
@@ -48,7 +53,7 @@ layout: default
         </div>
         <div class='col-md-4 col-12'>
         <h3>Контакты</h3>
-        <a class='mt-4 par link-contact' href='mailto:hi@ikovylyaev.com' target="_blank">Почта hi@ikovylyaev.com</a>
+        <a class='mt-3 par link-contact' href='mailto:hi@ikovylyaev.com' target="_blank">Почта hi@ikovylyaev.com</a>
         <a class='par link-contact' href='https://figma.com/@ikovylyaev' target="_blank">Figma @ikovylyaev</a>
         <a class='par link-contact' href='https://behance.net/ikovylyaev' target="_blank">Behance @ikovylyaev</a>
         <a class='par link-contact' href='https://dprofile.ru/ikovylyaev' target="_blank">DProfile @ikovylyaev</a>

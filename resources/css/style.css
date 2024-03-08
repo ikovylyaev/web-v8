@@ -6,7 +6,7 @@
     --orange-bg: hsla(27, 100%, 50%, 0.1);
     --orange-bg-hover: hsla(27, 100%, 50%, 0.2);
     --bg: hsla(0, 0%, 100%, 1);
-    --font-base: 1.8vh;
+    --font-base: clamp(14px, 1.8vh, 24px);
 }
 
 body{
@@ -62,27 +62,35 @@ h2{
 h3{
     font-size: calc(1.2*var(--font-base)) !important;
 }
-h4{
+h4, .h4{
     font-size: calc(1*var(--font-base)) !important;
 }
 small{
     font-size: calc(0.7*var(--font-base)) !important;
     display: block;
 }
+.par-big{
+    font-size: calc(0.9*var(--font-base)) !important;
+    line-height: 130%;
+}
 p, .par, a{
     font-size: calc(0.8*var(--font-base)) !important;
 }
-
+.par-exbig{
+    font-size: var(--font-base) !important;
+}
 .link-top{
     font-size: calc(1*var(--font-base)) !important;
+    margin-bottom: calc(0.1*var(--font-base));
+    display: inline-block;
 }
 .link-top.active{
     color: var(--main-color);
 }
 .link-top .home-icon{
-    height: 20px; 
-    width: 20px; 
-    border-radius: 10px; 
+    height: var(--font-base); 
+    width: var(--font-base); 
+    border-radius: 30px; 
     background: var(--second-color);
     transition: 0,3s;
 }
@@ -90,9 +98,6 @@ p, .par, a{
     background: var(--main-color);
 }
 .link-top:hover .home-icon, .home-icon:hover{
-    height: 20px; 
-    width: 20px; 
-    border-radius: 10px; 
     background: var(--orange);
     transition: 0,3s;
 }
@@ -137,7 +142,7 @@ a:hover{
 .secondary-link{
     font-size: 10px !important;
     font-weight: 500;
-    color: hsla(218, 15%, 25%, 1)!important;
+    color: hsla(218, 15%, 25%, .6)!important;
     border-bottom: 1px solid hsla(218, 15%, 25%, 0)!important;
     transition: 0.3s;
 }
@@ -150,7 +155,10 @@ a:hover{
     transition: 0.3s;
 }
 .inner-block{
-    margin-bottom: 6vh;
+    margin-bottom: 2vh;
+}
+.inner-block-2{
+    margin-bottom: 4vh;
 }
 .btn{
     background: var(--orange-bg);
@@ -169,10 +177,10 @@ a:hover{
 }
 
 .badge{
-    font-size: 0.8rem;
+    font-size: calc(0.8*var(--font-base))!important;
     background: var(--orange-bg);
     color: var(--orange);
-    padding: 4px 8px;
+    padding: 3px 6px;
     border-radius: 4px;
     margin-bottom: 0px;
     font-weight: 400;

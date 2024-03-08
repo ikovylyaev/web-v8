@@ -5,5 +5,58 @@ layout: post
 date: '2022-09-23 20:00:00 +0500'
 description: "Создал и развиваю дизайн-систему Маркер, создал и развиваю айдентику сервиса, слежу за удобством и качеством продукта. Разработал лэндинги вакансий и сервиса"
 permalink: "/work/xieffect/"
+linl: true
 year: "Май 2023 — по настоящее время"
 ---
+<div class='row'>
+    <div class='col-md-2 col-12'>
+        <p class='par-exbig'><span class='main-color'>Задача</span></p>
+    </div>
+    <div class='col-md-10 col-12 inner-block'>
+        <p class='par-exbig'>Создать айдентику, лендинги и&nbsp;веб-приложение edtech стартапа.</p>
+    </div>
+    <div class='col-md-2 col-12 '>
+        <p class='par-exbig'><span class='main-color'>Описание</span></p>
+    </div>
+    <div class='col-md-10 col-12 inner-block'>
+        <p class='par-exbig'>Xieffect.ru&nbsp;&mdash; цифровая образовательная платформа, позволяющая создавать образовательные сообщества и&nbsp;использовать их&nbsp;в&nbsp;обучении: онлайн, смешанного или офлайн.</p>
+    </div>
+    <div class='col-md-2 col-12 '>
+        <p class='par-exbig'><span class='main-color'>Процесс</span></p>
+    </div>
+    <div class='col-md-10 col-12 inner-block'>
+        <p class='par-exbig'>На&nbsp;момент начала работы над проектом существовала часть приложения и&nbsp;дизайн-система. В&nbsp;первой итерации был доделан базовый функционал сервиса: задания и&nbsp;тесты, объявления и&nbsp;видеоконференции.</p>
+    </div>
+    <div class='col-md-10 col-12  inner-block'>
+        <p class='par-exbig'>В&nbsp;декабре 2022 года была начата разработка новой дизайн-системы Маркер</p>
+    </div>
+    <div class='col-12 inner-block-2'>
+        <img src='{{site.url}}/img/works/Xi-01.webp' style='width: 100%;'>
+    </div>
+    <div class='col-md-10 col-12  inner-block'>
+        <p class='par-exbig'>В&nbsp;апреле 2023 года начата работа по&nbsp;обновлению фирменного стиля, у&nbsp;бренда появляется собсвтенный шрифт для логотипов.</p>
+    </div>
+    <div class='col-12 inner-block'>
+        <img src='{{site.url}}/img/works/Xi-02.webp' style='width: 100%;'>
+    </div>
+    <div class='col-md-10 col-12  inner-block'>
+        <p class='par-exbig'><a class='link par-exbig' href="{{site.url}}/files/xi-brand.pdf" target="_blank">Брендбук</a></p>
+    </div>
+    <div class='col-md-10 col-12  inner-block'>
+        <p class='par-exbig'>В&nbsp;мае 2023 начата работа по&nbsp;обнововлению Epic и&nbsp;переезду на&nbsp;ДС&nbsp;Маркер. </p>
+    </div>
+    <div class='col-12 inner-block-2'>
+        <img src='{{site.url}}/img/works/Xi-03.webp' style='width: 100%;'>
+    </div>
+    <div class='col-md-10 col-12  inner-block'>
+        <p class='par-exbig'>Летом 2023 началась работа над лендингами. Был создан лендинг вакансий <a class='link par-exbig' href="https://vacancy.xieffect.ru" target="_blank">vacancy.xieffect.ru</a> и&nbsp;начаты работы над основным лендингом <a class='link par-exbig' href="https://xieffect.ru" target="_blank">xieffect.ru</a>.</p>
+    </div>
+    <div class='col-12 inner-block-2'>
+        <img src='{{site.url}}/img/works/Xi-04.webp' style='width: 100%;'>
+    </div>
+    <div class='col-md-10 col-12 inner-block'>
+        <p class='par-exbig'>Протестировать сервис: <a class='link' href="https://app.xieffect.ru" target="_blank">app.xieffect.ru</a><br>
+        Email: test@test.test<br>
+        Пароль: 123456</p>
+    </div>
+</div>
